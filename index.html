@@ -3,12 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <title>Seneres Disney MakeoverMonday</title>
+  
 </head>
 <body>
   <h1>Seneres Disney Network Graph</h1>
   <img src="disney-2.jpeg" alt="1957 Disney business schematic" width="50%" height="auto">
   <p>The above schematic converted to an interactive network graph using Gephi and Sigma.js below:</p>
-<div id="sigma-container"></div>
+<div id="sigma-container">
+  <style type="text/css">
+  #sigma-container {
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+  }
+</style>
+  </div>
 <script src="sigma.core.js"></script>
 <script src="sigma.parsers.gexf.js"></script>
 <script>
